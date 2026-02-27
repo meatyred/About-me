@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .image {
+            cursor: pointer;
+            user-select: none;
+            -webkit-user-drag: none;
+        }
+        .image:hover {
+            filter: brightness(1.1);
+            transition: filter 0.2s ease;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+        <img class="image" src="https://ricsonscorp-ph.com/images/interior/One%20Bedroom%20Unit/interior-1bedroom-b.jpg" draggable="false" />
+        <img class="image" src="https://ricsonscorp-ph.com/images/commercial/proj-1/com-1-c.jpg" draggable="false" />
+        <img class="image" src="https://i.pinimg.com/1200x/4d/5e/f9/4d5ef94f9a038da39c34db143e5b98e0.jpg" draggable="false" />
+        <img class="image" src="https://www.shutterstock.com/image-photo/word-profile-red-block-letters-260nw-2724860005.jpg" draggable="false" />
+        <img class="image" src="https://ricsonscorp-ph.com/images/residential/res-prev-4.jpg" draggable="false" />
+        <img class="image" src="https://ricsonscorp-ph.com/images/residential/residential-nuvali-venare/res-nv-1.jpg" draggable="false" />
+        <img class="image" src="https://ricsonscorp-ph.com/images/interior/One%20Bedroom%20Unit-Sonata/interior-sonata-2.jpg" draggable="false" />
+        <img class="image" src="https://i.pinimg.com/736x/6d/75/f0/6d75f05fa990a5f45ba753660c721a89.jpg" draggable="false" />
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
